@@ -3,17 +3,16 @@ public class FibanocciSeries {
 
 
     public static void main(String[] args) {
-     System.out.println(fibanocci(10));   
+     System.out.println(fib(10));   
     }
     
 
-    public static int fibanocci(int n){
-        int sum =1;
-        for(int i=0;i<=n;i++){
-            sum = sum + sum;
-            System.out.println(sum);
-        }
-
-        return sum;
+    public static int fib(int n) {
+        // Base Case
+        if (n <= 1)
+            return n;
+ 
+        // Recursive call
+        return fib(n - 1) + fib(n - 2);
     }
 }
