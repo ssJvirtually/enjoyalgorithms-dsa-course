@@ -1,0 +1,4 @@
+# Ignore .class files
+*.class
+
+# Other Git ignore rules...
