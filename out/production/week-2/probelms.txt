@@ -1,0 +1,9 @@
+1) Buildings Facing Sun:  https://www.enjoyalgorithms.com/blog/number-of-buildings-facing-sun/
+
+2) Leaders in an Array: https://www.enjoyalgorithms.com/blog/leaders-in-an-array/
+
+3) Valid Mountain: https://www.enjoyalgorithms.com/blog/valid-mountain-array/
+
+4) Roman to Integer: https://www.enjoyalgorithms.com/blog/roman-to-integer/
+
+5) Equilibrium Index: https://www.enjoyalgorithms.com/blog/find-equilibrium-index-of-an-array/
