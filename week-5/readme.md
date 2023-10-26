@@ -1,51 +1,37 @@
-week 5 --> session 1
-algorithms to live (book)
+**Week 5**
 
-1)wave form array
-2)find majority element (similar to 2n repated element);
-==>VOTING ALGORITHM
--> try solve it using bit wise operations
--> try problem where majority element does not exist
+* Session 1: Algorithms to Live (Book)
+    * **Waveform Array**
+    * **Find Majority Element (similar to 2n repeated element)**
+        * **VOTING ALGORITHM**
+        * **Bitwise Operations**
+        * **Problem where majority element does not exist**
+    * **Tower of Hanoi**
+        * **Recursion**
+        * **Substitution**
+    * **Exponential Summation Formula**
+        * **2 + 4 + 8 + 32 = 2(n-1)-1**
+    * **Hashing**
+        * **Data Structure Operations**
+            * **Insert**
+            * **Delete**
+            * **Search**
+            * **Sort**
+            * **Merge**
+            * **Traverse**
+    * **Linear Data Structure**
+        * **Array**
+        * **Linked List**
+        * **Stack (FIFO)**
+        * **Queue (LIFO)**
+    * **OS Main Features**
+        * **Deadlock**
+        * **Process Management**
+        * **Process Synchronization**
+        * **Memory Management**
+        * **Round Robin Algorithm**
+            * **Circular List**
 
-3)Tower of Hanoi
-	-->recursion
-	-->substitution
-	
+**Explored Queue and Stack DS**
 
-
-//2 power 0 formula	
-==>exponential summation formula 
-2+4+8+32 = 2(n-1)-1;
-
-
-hashing
-
-data structure operations
-insert
-delete
-search
-sort
-merge
-traverse
-
-
-Linear Data Structure
-Array
-LinkedList
-Stack (FIFO)
-Queue(LIFO)
-
-
-
-OS main feature
-deadlock
-process management
-process synchronization
-memory mangement
-
-
-==>Round Robin ALGORITHM
-	->circular list
-
-
-Explored Queue and Stack DS
+**Go through Enjoy Algorithms blogs of Data Structures and Algorithms**
