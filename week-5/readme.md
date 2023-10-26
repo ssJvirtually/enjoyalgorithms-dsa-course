@@ -1,6 +1,7 @@
 **Week 5**
 
-* Session 1: Algorithms to Live (Book)
+* Session 1:
+**Algorithms to Live (Book) **
     * **Waveform Array**
     * **Find Majority Element (similar to 2n repeated element)**
         * **VOTING ALGORITHM**
