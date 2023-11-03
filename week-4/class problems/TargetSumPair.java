@@ -1,7 +1,10 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -32,9 +35,9 @@ public class TargetSumPair {
 
     public static void main(String[] args) {
         
-        int[] x = {-5, 1, 40, 20, 6, 8, 7};
-        int targetSum = 15;
-        System.out.println(targetPair(x, targetSum));
+        int[] x = {-11,7,3,2,1,7,-10,11,21,3};
+        int targetSum = 11;
+        System.out.println(Arrays.toString(twoSum(x, targetSum)));
     }
 
     public static boolean targetPair(int[] X,int targetSum){
@@ -59,5 +62,67 @@ public class TargetSumPair {
         }
 
         return false;
+    }
+
+
+    public static int[] twoSum(int[] nums, int target) {
+
+        Map<Integer,Object> map = new HashMap();
+        Set<Integer> set = new HashSet();
+        int[] toRet = new int[2];
+        for(int i=0;i<nums.length;i++){
+            if(map.containsKey(nums[i])){
+                List<Integer> list = (List)map.get(nums[i]);
+                list.add(i);
+            }
+            else{
+                List<Integer> list = new ArrayList();
+                list.add(i);
+                map.put(nums[i],list);
+            }
+            set.add(nums[i]);
+        }
+
+        for(int i=0;i<nums.length;i++){
+            int targetPair = 0;
+            if(target > 0){
+                if(nums[i] < 0){
+                    targetPair = target - nums[i];
+                }
+                else{
+                    targetPair = target - nums[i];
+                }
+            }
+            else{
+                if(nums[i] < 0){
+                    targetPair = target - nums[i];
+                }
+                else{
+                    targetPair = target - nums[i];
+                }
+            }
+
+
+
+            if(set.contains(targetPair)){
+                toRet[0] = i;
+                List<Integer> list = (List)map.get(targetPair);
+                if(list.size() > 1){
+                    for(int j=0;j<list.size();j++){
+                        if(list.get(j) != i){
+                            toRet[1] = list.get(j);
+                            break;
+                        }
+                    }
+                }
+                else{
+                    if(list.get(0) != toRet[0]) {
+                        toRet[1] = list.get(0);
+                        break;
+                    }
+                }
+            }
+        }
+        return toRet;
     }
 }
