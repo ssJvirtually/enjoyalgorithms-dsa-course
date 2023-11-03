@@ -9,7 +9,7 @@ Algorithm Puzzlers
 Hash Table:
 
 Direct Address Table
-I.D.S (Insert , Delete , Search)
+I.D.S (Not sure what I.D.S stands for, please clarify)
 1) Sorting a String
 
 Frequency of Characters
