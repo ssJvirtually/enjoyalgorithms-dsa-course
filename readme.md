@@ -1,5 +1,98 @@
 
+week 1 --> session 1
 
+1)Why algorithms used before Computers
+-->to get work done fast and efficient
+-->to solve frquently occuring math problems  
+
+2)Difference btwn a real life vs computer ALGORITHM
+-->scale
+-->Efficiency
+-->precision
+
+3)What is Alogrithm
+-->step-by-step well defined procedure to solve computational problems to transform given input to desired output
+
+		  transform	
+--> input ----------> output
+		  algorithm	
+	
+	a)what are relevant deatils of problem
+	-->Constraint
+	-->Data types
+	-->time and space
+
+4)What is good Alogrithm
+-->Efficiency=> time and memory
+-->easy to understand and modifiy(simple)
+-->correctness
+
+5)Magic Square
+6)Count All possible path
+
+	=>9c5 = 9c4
+	
+	idea of combinatory (to be discussed while discussing bactraking or DP)
+	 
+	 m+ncn = n+ncm;
+	
+	C(n, r) = n!/r!(n–r)!
+
+week 1 --> session 2
+
+1)Monty Hall problem
+	conditional probablity
+	
+2)Bridge Crossing
+
+3)7 unit Gold Bar 	
+	->binary represntaion of  number
+	->1,2,4 for 7
+	->1,2,4,8 for 15
+	
+[Math concepts to learn]	
+==>Summation and series
+==>logarithm and exponential
+==>permuatation and combination (Combinatorics)
+==>Basic probablity
+==>Bit Manipulation
+==>Numbers Theory
+==>Functions(Recurrence RElation)
+==>Indution
+==>basic graph and tree
+ ==>Basic Coordinates , DIstance formula
+
+
+[Programming]
+	if else
+	Functions
+	loops
+	Memory and allocation
+		Heap 
+			dynamic
+		Stack
+			function call
+			local variables
+			order
+		Program Instructions
+		
+[Courses]
+->courses by stanford
+	==>Programming abstraction
+	==>Programming methodolgy
+	==>Programming paradigm
+
+[Problems]
+==>Brain Teaser(Monty Hall,rectangle cake,)
+==>Algorithm puzzle
+
+-->Strict binary tree has two child or no child
+	InternalNode =  LeafNode-1;
+	LeafNode = InternalNode+1;
+	
+	
+	
+	
 18-10-2023 Notes:
 
 quick sort -> partition --> pivot
@@ -184,6 +277,26 @@ task :try to solve it  single loop
 		  chaining
 	      		
 
+week 6 --> session 2
 
-	
+
+1)Design Hash Table
+		
+	Resolve collision
+		By chaining
+			Linked list or balanced bst
+			load factor
+		By Open addressing
+			key value stored in same slot
+			linear probing
+				reahashing using Linear probing			
+				primary clustering --> performance degrades
+				mod - circular 
+			Quadratic probing
+				secondary clustering problem
+				double hasing can be used to resolve secondary clustering
+			
+			
+FOCUS AND COLLABORATION
+
 	
