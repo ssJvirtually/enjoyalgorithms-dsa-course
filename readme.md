@@ -1,5 +1,5 @@
 
-week 1 --> session 1
+week 1 --> session 1 --> (27-Sep-2023)
 
 1)Why algorithms used before Computers
 -->to get work done fast and efficient
@@ -38,7 +38,7 @@ week 1 --> session 1
 	
 	C(n, r) = n!/r!(n–r)!
 
-week 1 --> session 2
+week 1 --> session 2 --> (29-Sep-2023)
 
 1)Monty Hall problem
 	conditional probablity
@@ -89,10 +89,92 @@ week 1 --> session 2
 -->Strict binary tree has two child or no child
 	InternalNode =  LeafNode-1;
 	LeafNode = InternalNode+1;
+
+-----------------------------------------------------------------------------------------------------	
+
+week 2 --> session 1 --> (04-Oct-2023)
+==> complexity Analysis
+		HOW , WHERE , WHY 
+		 
+		To understand behaviour of algo for diff input sizes
+		Code optimization
+		
+		-->how to calculate running time of ALGORITHM
+				every Programming operation will take constant time
+				Large scale of input (exception => low scale)
+				Independent of machine related (In terms of input size)
+					hardware can be scaled  only by constant (there is saturation limit)
+				Choice of programming language(compiler)
+				==> All the above are mostly are constant time operations
+				
+				Input size
+				==>varies lot
+				we always analyse running time of  alogrithms wrt input size
+				
+		-->Running time
+				total time taken by algo for particular input size
+				anpow2+an+a
+		-->Time complexity
+				abstract(npow2) 
+				
+		-->Input size
+		
+1)Linear search
+	==>Distribution of Input	
+		Best , Avg, Worst
+					sum of time taken by all input possibilites
+		Avg =	-------------------------------------------
+					total no of possibiltes
+2)Find Max Element in Array		  
+	O(n) time 
+	need to come up with observations based on the input
 	
+[books to read]
+-->Algorithm design manual (steven skiena)
+
+
+-->we should be idea hunters
+	Every human has equal opprtunity to find insights
+		time
+		mind
 	
+		FOCUS AND CONSISTENCY
+		
+		  
+-->Pick three subjects 
+	DSA - major
+	System design
+	OOPS design
+		
+
+best = sigma
+Average = theta
+worst = Big O
+
+BIG O ==> O(npow2); (to be discussed) 	
+
+
+-->wherever  randomise factor is involved in algo we perform average case to understand it better
+
+-->when best and worst has some gap then average needs to be calculated
+
+-->Rate of growth of curve give is clear picture time complexity
+   put higher oderd term in big O ie time complexity 
+
+-->an + b = O(npow2)  , mathametically this equation is correct for upperbound,
+	but for programming this doest help in comparing algo
+	an + b = O(logn) is wrong X , this cannpt be possible
 	
+==>what are the assumptions in algorithms
+	input Distribution
 	
+==>when we use best , avg , worst case
+	if best and worst is O(n) then avg also will be the same
+	
+	for small input size lower order term and coefficeints cant be ignored
+		
+	
+------------------------------------------------------------------------------------------------------	
 18-10-2023 Notes:
 
 quick sort -> partition --> pivot
@@ -140,7 +222,7 @@ solve 0,1,2 and 0,1
 element repeated n times in 2n size array find the element 
 spiral matrix (iteratively , recursion)
 
-
+---------------------------------------------------------------------------------------
 
 week 5 --> session 1
 algorithms to live (book)
@@ -231,7 +313,7 @@ Note: output array is not considerd as space complexity as it is part of the pro
 	
  -->problem of birthday , problem of dice
  
- 
+------------------------------------------------------------------------------------------ 
  
 week 6 --> session 1
 
@@ -298,5 +380,44 @@ week 6 --> session 2
 			
 			
 FOCUS AND COLLABORATION
+-----------------------------------------------------------------------------------------------------------
+week 7 --> session 1 --> (08-Nov-2023)
 
+1)Search element in a matrix in row wise sorted
+	search rows and element using binary search 
+	o(logm+logn)
 	
+2)Search element in a matrix column wise sorted
+	column wise sorted Array
+	two pointers 
+	
+3)max consecutive ones in the binary sorted matrix Array
+	 O(mlogn)
+	 O(m+n) two pointers
+
+4)first and last occurence of key in array with repeating elements 	 (task)
+	code the problem
+
+5)sorted and  rotated array
+	search minimum element using binary search
+
+
+6)how to rotate an array by k	(HW)
+
+7)find fake coin among 8 coins
+
+8)find fake coin among 12 coins 
+
+
+week 7 --> session 2 --> (10-Nov-2023)
+
+
+1)Exponential search
+
+2)first occurence of positive 	
+
+3)arrays are equal or not
+
+4)largest consecutive sequence
+
+5)	
