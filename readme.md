@@ -408,6 +408,7 @@ week 7 --> session 1 --> (08-Nov-2023)
 
 8)find fake coin among 12 coins 
 
+******************************************************
 
 week 7 --> session 2 --> (10-Nov-2023)
 
@@ -421,3 +422,44 @@ week 7 --> session 2 --> (10-Nov-2023)
 4)largest consecutive sequence
 
 5)	
+
+
+-------------------------------------------------------------------------------------
+
+week 8 --> session 1 --> (15-Nov-2023)
+
+
+1)Largest subarray with 0 sum
+	efficient solution using hashTable
+	https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1Free
+		
+2)Max subarray which has equal 0 and 1 (HW)
+	efficient solution using 0 as -1 and then sum the subarrays
+	https://leetcode.com/problems/contiguous-array/
+	
+3)Largest increasing subarray length
+	https://leetcode.com/problems/longest-increasing-subsequence/
+	https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+
+4)Flip 0 in windows and find largest consecutive ones
+	https://leetcode.com/problems/max-consecutive-ones-iii/
+
+	
+5)
+
+
+6)Largest subString with all uniqe chars
+
+7)Max subarray with all uniqe values
+
+8)distinct elements in every k window in Array
+
+9)MAX of k windows in Array
+	use datastructure : DEQUEUE
+	
+10)Trapping rain water
+	using prefix and suffix max Array (try to solve with just prefix max)
+	two pointer approach
+	https://leetcode.com/problems/trapping-rain-water/	
+
+	
