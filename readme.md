@@ -449,13 +449,18 @@ week 8 --> session 1 --> (15-Nov-2023)
 
 
 6)Largest subString with all uniqe chars
-
+	https://leetcode.com/problems/longest-substring-without-repeating-characters/
+	
 7)Max subarray with all uniqe values
+	https://practice.geeksforgeeks.org/problems/sum-of-length3345/1
 
 8)distinct elements in every k window in Array
+	https://leetcode.com/problems/subarrays-with-k-different-integers/
+	https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
 
 9)MAX of k windows in Array
 	use datastructure : DEQUEUE
+	https://leetcode.com/problems/sliding-window-maximum/
 	
 10)Trapping rain water
 	using prefix and suffix max Array (try to solve with just prefix max)
