@@ -459,7 +459,7 @@ week 8 --> session 1 --> (15-Nov-2023)
 	https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
 
 9)MAX of k windows in Array
-	use datastructure : DEQUEUE
+	use datastructure : DEQUEUE (to be discussed)
 	https://leetcode.com/problems/sliding-window-maximum/
 	
 10)Trapping rain water
@@ -467,4 +467,83 @@ week 8 --> session 1 --> (15-Nov-2023)
 	two pointer approach
 	https://leetcode.com/problems/trapping-rain-water/	
 
+
+*******************************************************************************
+
+week 8 --> session 2 --> (17-Nov-2023)
+
+==>Linear Data Structure
+	Array
+		Efficient
+			continuos memory allocation
+			swapping
+			access by index
+			locality
+			
+		Not efficient
+			size (static allocation)
+==>Linked list
+	Advantages
+		not fixed size 
+		
+	sorting of linked list (Merge sort is best)
+	
+	[problems to be solved]	
+	sort linked list
+	remove duplicated	
+
+[explore]	
+-->explore data structures on Array		
+
+-->Numpy library
+	parallel computing
+	
+==>Dynamic Array (List)
+	n -> insertion
+			O(n)
+	avg 	O(1)
+	
+			k
+	k -> ----------  Growth factor / Load Factor
+			k-1
+	
+	Implementation of Dynamic Array
+		constrcutor
+		public methods
+			get
+			delete
+			insert
+		private methods
+			resize
+			shrink
+			
+		static
+			growth factor
+			current size
+			threshold \ limit
+			
+==>Knowledge Graph
+	how to keep things in memory for longer
+	
+1)Rotate Matrix by 90 degress
+	
+	n*n transpose can be done in place by swapping
+	
+	m*n transpose can only be done with extra space
+	
+	https://leetcode.com/problems/rotate-image
+	
+
+2)KaratSuba Integer Multiplication	(HW)
+	
+3)Calculate the xPowerN
+	divide it into sub problems and add the sum 
+
+[Math concepts to learn]
+==>learn about numbers theroy
+	binary
+	decimal
+	hexaDecimal
+	base64
+----------------------------------------------------------------------------------------------------
 	
