@@ -546,4 +546,90 @@ week 8 --> session 2 --> (17-Nov-2023)
 	hexaDecimal
 	base64
 ----------------------------------------------------------------------------------------------------
+
+week 9 --> session 1 --> (22-Nov-2023)
+
+
+==>Fear of failure
+	make coding as hobby
 	
+	
+1)max consecutive ones with k filps of 0
+	sliding window
+	
+	
+==>Linked list
+	singly , doubly , circualrlist
+	
+	doubly Linked list applications
+		forward and backward (music player queue)
+		
+	
+	
+1)design browser history
+	Stack
+	doubly Linked list
+
+2)design LRU %% LFU cache (to be discusses)
+		doubly Linked list + hash Table
+	
+	
+3)round Robin
+		is a scheduling strategy
+		priority scheduling
+	
+	starvation problem in process scheduling
+	
+	
+[blog to read]
+-->process management in OS
+-->load balancing
+	
+	circular array (to be discussed)
+
+==>Load balancing
+	round Robin
+	weighted round robin (tbd)
+	
+==>linked list problem solving
+	all linear traversal methods can be used
+	
+4)find middle node / delete middle node
+	linear search
+	length ==> n
+	-->delete n/2 node 
+	
+	fast and slow pointer
+
+5)reverse a linked list
+	recursively
+	https://leetcode.com/problems/reverse-linked-list
+
+6)reverse the range in linked list m ,n 
+7)reverse k group in linked list
+8)reverse linked list in pair (paiwise swap)
+
+
+
+9)N th node	from end
+	two pointer approach using slow and fast pointer
+	handle edge cases
+	https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+10)bridge node
+	https://leetcode.com/problems/intersection-of-two-linked-lists
+
+11)loop in a linked List
+	==>floyed ALGORITHM / tortoise and hare algorithm
+	
+	using hash table
+	https://leetcode.com/problems/linked-list-cycle-ii/
+
+	
+		
+
+
+
+
+
+
