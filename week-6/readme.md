@@ -37,5 +37,26 @@
 - *Donald Knuth*
 - *Claude Shannon*
 
+---
+
+## Week 6 - Session 2
+
+1. **Design Hash Table**
+   - **Resolve Collision**
+     - *Chaining*
+       - Linked list or balanced BST
+       - Load factor
+     - *Open Addressing*
+       - Key value stored in the same slot
+       - *Linear Probing*
+         - Rehashing using Linear Probing
+         - Primary clustering (performance degrades)
+         - Mod - Circular
+       - *Quadratic Probing*
+         - Secondary clustering problem
+         - Double hashing can be used to resolve secondary clustering
+
+**Focus and Collaboration**
+
 **Design Hash Table:**
 - *Chaining*
