@@ -600,15 +600,20 @@ week 9 --> session 1 --> (22-Nov-2023)
 	-->delete n/2 node 
 	
 	fast and slow pointer
-
+	https://leetcode.com/problems/middle-of-the-linked-list/
+	
 5)reverse a linked list
 	recursively
 	https://leetcode.com/problems/reverse-linked-list
 
 6)reverse the range in linked list m ,n 
-7)reverse k group in linked list
-8)reverse linked list in pair (paiwise swap)
+https://leetcode.com/problems/reverse-linked-list-ii
 
+7)reverse k group in linked list
+https://leetcode.com/problems/reverse-nodes-in-k-group
+
+8)reverse linked list in pair (paiwise swap)
+https://leetcode.com/problems/swap-nodes-in-pairs/
 
 
 9)N th node	from end
