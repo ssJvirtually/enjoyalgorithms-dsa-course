@@ -634,7 +634,53 @@ https://leetcode.com/problems/swap-nodes-in-pairs/
 		
 
 
+********************************************************************************************
 
 
+week 9 --> session 2 --> (24-Nov-2023)
 
 
+1)find and delete loop in linked list
+	l>m 
+		fast pointer and slow pointer will meet at some point
+	
+	l<m
+		fast pointer loops more times
+		
+2)swap nodes in pair
+	swap the Data
+	==>data swapping
+		O(mn)
+		data will be swapped between the nodes
+		it can be heavy
+	==>pointer swapping
+		itertive swapping
+		recursive swapping
+
+==>Stack
+	topological sorting -->-->dfs (tbd)
+	
+	dependency graph
+	
+	storing history of items
+	
+	==>Array Implementation
+		stack operations
+			push
+				overflow
+			pop
+				underflow
+			top
+			resize
+				increaes array size
+		
+	
+	==>Linked list Implementation
+		
+		stackoverflow error
+		
+		stack underflow error
+		
+==>Queue
+	CIRCULAR ARRAY/list
+	
