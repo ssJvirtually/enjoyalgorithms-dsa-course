@@ -612,7 +612,7 @@ https://leetcode.com/problems/reverse-linked-list-ii
 7)reverse k group in linked list
 https://leetcode.com/problems/reverse-nodes-in-k-group
 
-8)reverse linked list in pair (paiwise swap)
+8)reverse linked list in pair (pairwise swap)
 https://leetcode.com/problems/swap-nodes-in-pairs/
 
 
@@ -630,7 +630,8 @@ https://leetcode.com/problems/swap-nodes-in-pairs/
 	using hash table
 	https://leetcode.com/problems/linked-list-cycle-ii/
 
-	
+[extra problems]
+https://leetcode.com/problems/remove-linked-list-elements		
 		
 
 
@@ -646,7 +647,12 @@ week 9 --> session 2 --> (24-Nov-2023)
 	
 	l<m
 		fast pointer loops more times
-		
+	https://leetcode.com/problems/linked-list-cycle
+	https://leetcode.com/problems/linked-list-cycle-ii
+	https://leetcode.com/problems/delete-node-in-a-linked-list
+	
+	https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list
+	https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list
 2)swap nodes in pair
 	swap the Data
 	==>data swapping
@@ -656,7 +662,8 @@ week 9 --> session 2 --> (24-Nov-2023)
 	==>pointer swapping
 		itertive swapping
 		recursive swapping
-
+	https://leetcode.com/problems/swap-nodes-in-pairs/
+	
 ==>Stack
 	topological sorting -->-->dfs (tbd)
 	
@@ -680,7 +687,69 @@ week 9 --> session 2 --> (24-Nov-2023)
 		stackoverflow error
 		
 		stack underflow error
-		
+	https://leetcode.com/problems/design-a-stack-with-increment-operation	
+	https://leetcode.com/problems/design-a-stack-with-increment-operation
 ==>Queue
 	CIRCULAR ARRAY/list
+	https://leetcode.com/problems/design-circular-queue
+	
+
+-------------------------------------------------------------------------------------------	
+
+week 10 --> session 1 --> (29-Nov-2023)
+
+1)reverse stack
+	place all items in other stack
+	https://practice.geeksforgeeks.org/problems/reverse-a-stack/1
+	
+2)reverse Queue
+	https://practice.geeksforgeeks.org/problems/queue-reversal/1
+	
+==>think in terms of data structure operations
+
+3)sort a stack using stack
+	
+	recursive solution
+		o(npow2)	
+	
+	another stack is required
+		4i+2
+		npow2
+	
+		
+==>Recurrence relations to remember
+	
+4)implement Queue using stack
+	copy main stack to temp stack then pop elements
+	then insert coming new elements into main stack
+	
+	https://leetcode.com/problems/implement-queue-using-stacks
+	https://practice.geeksforgeeks.org/problems/queue-using-stack
+	
+5)implement stack using Queue
+	
+	[task]
+	push->O(n)
+	pop->O(1)
+	https://leetcode.com/problems/implement-stack-using-queues
+	
+6)how to implement DEQUEUE using circular Queue
+
+7)Design min Stack
+	push
+	pop
+	top
+	
+	->get min operation
+	
+	store min elements into Stack
+	
+	
+	store in pair
+	linked list Implementation
+	
+	another implementation using stack can be found in  blog
+	
+	https://leetcode.com/problems/min-stack/
+	
 	
