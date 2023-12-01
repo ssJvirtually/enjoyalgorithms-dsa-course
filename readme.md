@@ -699,10 +699,12 @@ week 9 --> session 2 --> (24-Nov-2023)
 week 10 --> session 1 --> (29-Nov-2023)
 
 1)reverse stack
+	
 	place all items in other stack
 	https://practice.geeksforgeeks.org/problems/reverse-a-stack/1
 	
 2)reverse Queue
+	
 	https://practice.geeksforgeeks.org/problems/queue-reversal/1
 	
 ==>think in terms of data structure operations
