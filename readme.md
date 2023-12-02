@@ -772,6 +772,7 @@ week 10 --> session 2 --> (01-Dec-2023)
 	
 2)next smaller Element , 
 3)next smaller in the left and right
+
 4)Histogram
 	https://leetcode.com/problems/largest-rectangle-in-histogram/
 	
