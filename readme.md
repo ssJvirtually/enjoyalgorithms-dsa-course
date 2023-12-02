@@ -754,4 +754,51 @@ week 10 --> session 1 --> (29-Nov-2023)
 	
 	https://leetcode.com/problems/min-stack/
 	
+*********************************************************************************************
+
+week 10 --> session 2 --> (01-Dec-2023)
+
+
+1)Next greater element 
+	can be solved using Stack
 	
+	stack and queue can be used when you need tracking in a solution
+	
+	try solving it by Iteratiing from right
+	https://leetcode.com/problems/next-greater-element-i/
+	
+	
+2)next smaller Element , 
+3)next smaller in the left and right
+4)Histogram
+	https://leetcode.com/problems/largest-rectangle-in-histogram/
+	
+5)balanced paranthesis
+	
+	store opening paranthesis in stack  , when ever correspoinding closing paranthesis found pop the closing from the stack
+	https://leetcode.com/problems/valid-parentheses
+
+6)largest valid paranthesis
+	https://leetcode.com/problems/longest-valid-parentheses
+
+7)remove minimum paranthesis to make expression balanced
+	https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+
+8)how many paranthesis can be added to make expression balanced
+	https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string
+
+9)generate balanced paranthesis
+	https://leetcode.com/problems/generate-parentheses/
+
+10)reverse linked list
+	using dummy node
+	https://leetcode.com/problems/reverse-linked-list
+	
+11)reverse m , n linked list
+	https://leetcode.com/problems/reverse-linked-list-ii
+	
+12)palindrome linked list
+	https://leetcode.com/problems/palindrome-linked-list
+	
+	
+--------------------------------------------------------------------------------------------------------------------------------------	
