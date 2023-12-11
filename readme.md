@@ -753,18 +753,19 @@ week 10 --> session 1 --> (29-Nov-2023)
 	another implementation using stack can be found in  blog
 	
  
-[min-stack](https://leetcode.com/problems/min-stack/)
+[min-stack](https://leetcode.com/problems/min-stack/) [revist]
 	
 
 *********************************************************************************************
 
 week 10 --> session 2 --> (01-Dec-2023)
 
+==>stack and queue can be used when you need tracking in a solution
 
 1)Next greater element 
+	
 	can be solved using Stack
 	
-	stack and queue can be used when you need tracking in a solution
 	
 	try solving it by Iteratiing from right
 	https://leetcode.com/problems/next-greater-element-i/
@@ -781,8 +782,8 @@ week 10 --> session 2 --> (01-Dec-2023)
 	store opening paranthesis in stack  , when ever correspoinding closing paranthesis found pop the closing from the stack
 	https://leetcode.com/problems/valid-parentheses
 
-6)largest valid paranthesis
-	https://leetcode.com/problems/longest-valid-parentheses
+6)largest valid paranthesis [revist]
+	https://leetcode..com/problems/longest-valid-parentheses
 
 7)remove minimum paranthesis to make expression balanced
 	https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
@@ -805,3 +806,97 @@ week 10 --> session 2 --> (01-Dec-2023)
 	
 	
 --------------------------------------------------------------------------------------------------------------------------------------	
+
+week 11 --> session 1 --> (06-Dec-2023)
+
+
+1)Merge Sort
+	Independently solving the problem by dividing into half
+	
+==>Dynamic programming
+	
+	how many sub problems we are using to solve the problem
+	
+	how many unique sub problems we are using to solve the problem
+
+	-->directed graph (tbd)
+	 
+	directed acyclic graph
+		topological Sorting
+	
+	
+	topological order
+	
+	-->problems that can be solve with dp approach
+		max,min,longest,shorest,
+		counting
+		
+	dp is also called as optimal sub structure which mean optimal solution for repeating sub problems
+	
+	-->top down (memoization)
+	
+	-->bottom up (tabulation) iteration -->reverse of recursion
+	
+	-->think recursively and implement iteratively
+	
+	
+	bellman ford termed DP 
+	
+	1)decide table size for extra  memory by looking how many different sub problems are coming
+	2)intialize table
+	3)fill table
+
+    furthur optimisation using only two variables 
+	
+
+2)climbing stairs
+	https://leetcode.com/problems/climbing-stairs/description/
+	
+3)player scoring runs
+
+4)max amount theif can get (house robber)
+	https://leetcode.com/problems/house-robber/
+
+5)decode ways
+	https://leetcode.com/problems/decode-ways/
+**************************************************************************************************************************
+
+week 11 --> session 1 --> (08-Dec-2023)
+
+
+1)longest common subsequence
+	2powm possibilities of subsequence for any string
+	
+	Exponential means can be solved recursion
+	
+	
+	bottom up appraoch
+		1)table size
+		
+		2)table initialization
+		
+		3)iterative structure to fill the table
+	
+
+	https://leetcode.com/problems/longest-common-subsequence
+2)count all sub paths
+	
+	https://leetcode.com/problems/unique-paths	
+	
+	https://leetcode.com/problems/count-all-possible-routes
+
+
+3)longest palindromic subsequence
+	https://leetcode.com/problems/longest-palindromic-subsequence
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
