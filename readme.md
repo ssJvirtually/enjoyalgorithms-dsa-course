@@ -861,7 +861,7 @@ week 11 --> session 1 --> (06-Dec-2023)
 	https://leetcode.com/problems/decode-ways/
 **************************************************************************************************************************
 
-week 11 --> session 1 --> (08-Dec-2023)
+week 11 --> session 2 --> (08-Dec-2023) DP
 
 
 1)longest common subsequence
@@ -890,10 +890,58 @@ week 11 --> session 1 --> (08-Dec-2023)
 	https://leetcode.com/problems/longest-palindromic-subsequence
 	 
 	
+--------------------------------------------------------------------------------------------------------
+
+	
+week 12 --> session 1 --> (13-Dec-2023)   DP 
+
+==>how to identify the problem wether it can be solved using dp
+
+
+1)rod cutting
+	https://leetcode.com/problems/minimum-cost-to-cut-a-stick
+	https://www.interviewbit.com/problems/rod-cutting/
+	https://www.geeksforgeeks.org/problems/rod-cutting0840/1
+
+2)min coin change (unbounded)
+
+	https://leetcode.com/problems/coin-change
+	
+	count all possible ways to provide change	
+	return all possible ways	
+
+
+==> bottom up is more better approach than top down in most cases
+
+3)max sub array sum
+	
+	kadanes ALGORITHM
+	https://leetcode.com/problems/maximum-subarray/description/
+	
+4)max product sub array
+	
+	https://leetcode.com/problems/maximum-product-subarray/description/
+
+	run two loops from forward and backward
+
+5)longest common subString
+	https://leetcode.com/problems/maximum-length-of-repeated-subarray
+	https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
+
+6)longest palindromic sub string
+	https://leetcode.com/problems/longest-palindromic-substring
 	
 	
+7)knapsack(0-1)
+	bounded
+	https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
 	
-	
+	unbounded
+	https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+
+8)	
+
+  
 	
 	
 	
