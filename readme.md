@@ -547,7 +547,7 @@ week 8 --> session 2 --> (17-Nov-2023)
 	base64
 ----------------------------------------------------------------------------------------------------
 
-week 9 --> session 1 --> (22-Nov-2023)
+week 9 --> session 1 --> (22-Nov-2023) [LINKED_LIST]
 
 
 ==>Fear of failure
@@ -638,7 +638,7 @@ https://leetcode.com/problems/remove-linked-list-elements
 ********************************************************************************************
 
 
-week 9 --> session 2 --> (24-Nov-2023)
+week 9 --> session 2 --> (24-Nov-2023) [LINKED_LIST - STCACK -QUEUE]
 
 
 1)find and delete loop in linked list
@@ -696,7 +696,7 @@ week 9 --> session 2 --> (24-Nov-2023)
 
 -------------------------------------------------------------------------------------------	
 
-week 10 --> session 1 --> (29-Nov-2023)
+week 10 --> session 1 --> (29-Nov-2023) [STACK - QUEUE]
 
 1)reverse stack
 	
@@ -758,7 +758,7 @@ week 10 --> session 1 --> (29-Nov-2023)
 
 *********************************************************************************************
 
-week 10 --> session 2 --> (01-Dec-2023)
+week 10 --> session 2 --> (01-Dec-2023) [STACK - QUEUE]
 
 ==>stack and queue can be used when you need tracking in a solution
 
