@@ -807,7 +807,7 @@ week 10 --> session 2 --> (01-Dec-2023)
 	
 --------------------------------------------------------------------------------------------------------------------------------------	
 
-week 11 --> session 1 --> (06-Dec-2023)
+week 11 --> session 1 --> (06-Dec-2023) DP
 
 
 1)Merge Sort
@@ -907,8 +907,8 @@ week 12 --> session 1 --> (13-Dec-2023)   DP
 
 	https://leetcode.com/problems/coin-change
 	
-	count all possible ways to provide change	
-	return all possible ways	
+	count all possible ways to provide change	(HW)
+	return all possible ways	(HW)
 
 
 ==> bottom up is more better approach than top down in most cases
@@ -924,27 +924,164 @@ week 12 --> session 1 --> (13-Dec-2023)   DP
 
 	run two loops from forward and backward
 
-5)longest common subString
+5)longest common subString (HW)
 	https://leetcode.com/problems/maximum-length-of-repeated-subarray
 	https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
 
-6)longest palindromic sub string
+6)longest palindromic sub string (HW)
 	https://leetcode.com/problems/longest-palindromic-substring
 	
 	
-7)knapsack(0-1)
+7)knapsack(0-1) (HW)
 	bounded
 	https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
 	
 	unbounded
 	https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+	
+*****************************************************************************************************	
 
-8)	
+ week 12 --> session 2 --> (15-Dec-2023)   DP  
 
+important ideas of DP	
+	==>identification
+	==>recursive decomposition
+	==>bottom up approach
+
+
+
+1)0-1 knapsack 
+	
+	only previous row is used
+	
+	bounded
+	https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+	
+	unbounded
+	https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+	
+
+2)longest increasing subsequence (oprimization problem)
+
+	lexographically sorted (other variant of some question)
+	
+	
+	
+	https://leetcode.com/problems/longest-increasing-subsequence/description/
+
+3)min jump
+	
+	https://leetcode.com/problems/jump-game-ii
+	
+	try min jump ==> greedy idea
+
+4)edit Distance
+	replace,remove,insert character
+
+	https://leetcode.com/problems/edit-distance/
+
+	
+4)count all bst wiht n keys (tbd at bst) 
+
+3)decode ways
+	
+	https://leetcode.com/problems/decode-ways/
+
+	
+[practice]
+	longest common subString
+	optimal strategy
+	longest palindormic subString
+	
+==>[practice]	
+	recursive decomposition
+	how to fill table Structure
+	
+-----------------------------------------------------------------------------------------------------------------------	
   
+ week 13 --> session 1 extra --> (19-Dec-2023)   DP  - Array
+ 
+ 1)max profit by selling and buying stock
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 	
-	
-	
-	
+2)max profit by selling and buying stock multiple times
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
 	
 
+3)two transaction 
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+ 
+ 
+4)k transactions
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv
+	
+5)unbounded transactions with cooldown period
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+	
+
+*************************************************************************************************
+
+	
+ week 13 --> session  extra --> (19-Dec-2023)   GREEDY
+ 
+
+
+==>DP summary
+
+
+
+1)fractional knapsack
+
+	value
+	-----  ratio in descending order
+	weight 
+	
+	https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+	https://leetcode.com/problems/maximum-units-on-a-truck
+	
+
+2)Acitivity selection
+	
+	https://leetcode.com/problems/non-overlapping-intervals
+	
+	
+	
+	DP   				VS 			GREEDY
+						|
+	All pssobilities 	|    many possibilites
+	are considerd		|		
+						|	chooose one possibility that
+						|	is locally best 
+						|
+
+
+	
+	->first start time
+	->first finish time
+	
+	->sort based on finish time reaminiang set
+	
+	
+3)weighted activity selection
+	
+	==>try dp way inclusion and exclusion
+
+
+==>construction of a DP solution
+==>construction of a table bottom up approach
+
+
+5)gas station (HW)
+	
+	https://leetcode.com/problems/gas-station
+
+6)min jump
+	
+	try greedy appraoch
+	
+==>greedy will discussed more at graphs 
+
+--> back tracking (tbd)
+
+	
+****************************************************************************************************888	
