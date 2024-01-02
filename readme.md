@@ -999,9 +999,9 @@ important ideas of DP
 	
 -----------------------------------------------------------------------------------------------------------------------	
   
- week 13 --> session 1 extra --> (19-Dec-2023)   DP  - Array
+week 13 --> session 0 extra --> (19-Dec-2023)   DP  - Array
  
- 1)max profit by selling and buying stock
+1)max profit by selling and buying stock
 	https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 	
 2)max profit by selling and buying stock multiple times
@@ -1017,12 +1017,13 @@ important ideas of DP
 	
 5)unbounded transactions with cooldown period
 	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
 	
 
 *************************************************************************************************
 
 	
- week 13 --> session  extra --> (19-Dec-2023)   GREEDY
+ week 13 --> session  1 --> (19-Dec-2023)   GREEDY
  
 
 
@@ -1084,4 +1085,57 @@ important ideas of DP
 --> back tracking (tbd)
 
 	
-****************************************************************************************************888	
+****************************************************************************************************
+
+
+ week 13 --> session  2 --> (22-Dec-2023) GREEDY 
+ 
+ 
+[books to read]
+web scalability (tata mager hill)
+
+
+==>Greedy
+	
+==>dijkstra's ALGORITHM (tbd)
+
+1)Gas station
+	
+	
+	//brute force
+	circualar array
+	
+	use mod to traverse in circular fashion
+	
+	https://leetcode.com/problems/gas-station
+	
+
+-->choose locally max jump that can reach as far as possible
+	
+	
+	
+	
+2)wild card pattern matching (hw) [Dp]
+3(distrivute candy
+
+
+==>backtracking introduction
+[dp problems to practice]
+4)palindorm partitioning (hw) 
+5)weighted job scheduling
+6)maximal Square
+7)longest zig zag sequence
+8)longest arithmetic sequence
+9)egg dropping puzzle
+
+==>sean carving image editing
+
+==>gradient dissent
+	ML ALGORITHM -->cost function --> optimization
+	
+
+==>backtracking
+	1)exhaustive Search
+	2)condition based backtracking
+
+----------------------------------------------------------------------------------------------------------
