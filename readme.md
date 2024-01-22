@@ -1133,9 +1133,263 @@ web scalability (tata mager hill)
 ==>gradient dissent
 	ML ALGORITHM -->cost function --> optimization
 	
-
+]]]
 ==>backtracking
 	1)exhaustive Search
 	2)condition based backtracking
 
 ----------------------------------------------------------------------------------------------------------
+
+
+ week 14 --> session  1 --> (5-Jan-2024) GREEDY , bactraking
+ 
+1)n activites
+	
+	greedy -> first finish time
+	sort based on finish time
+	pick the activity which finishing first
+	
+	
+2)Gas station problem
+	
+	
+3)min jump using greedy
+
+
+	
+
+==> Back Tracking
+
+	recursion --> base case
+	
+	
+	-->types of backtracking
+		exhaustive Search
+			
+			all permuatations
+			all subsets
+			generate all binray string of sizes
+			generate all k combinations
+		
+		branch and bound
+			
+			n queen
+			rat and maze
+			flood fill
+			combination sum
+	
+
+****************************************************************************************
+
+week 14 --> session  2 --> (10-Jan-2024) bactraking
+ 
+ 
+==>Back Tracking
+	
+	exhaustive Search
+		all permuatations
+		all subsets
+		generate all binray string of sizes
+		generate all k combinations
+		
+	
+	
+	permutations
+
+1)generate all string permutations
+	https://leetcode.com/problems/permutations
+		
+2)generate all binary string of size n
+
+
+3)generate all subsets
+	
+	
+	
+	DFS (tbd)
+	
+	without bit masking
+	https://leetcode.com/problems/subsets	
+	
+4)generate k combinations
+
+	
+	n
+	 c
+	   k
+	   
+--------------------------------------------------------------------------------------
+
+week 15 --> session  1 --> (12-Jan-2024) backtracking
+	   
+[blogs to read]
+twitter engineering
+slack engineering
+chrome for dvelopers (how modern browser works)
+amazon builder library
+
+1)combination sum
+	
+	recursion
+	inclusion exclusion principle
+	
+	https://leetcode.com/problems/combination-sum/
+	
+2)N queens (code it)
+	
+	constraints
+	
+	https://leetcode.com/problems/n-queens/
+	
+3)generate 2n valid parenthesis
+
+4)generate all uniqe valid-parentheses ==> after min removal of valid parentheses	
+
+5)decode string ==> mobile keypad
+	https://leetcode.com/problems/decode-string/
+
+
+************************************************************************************************
+
+week 15 --> session  2 --> (17-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY TREE
+
+5 hour / week rule
+
+focus and collaboration
+
+-->new ideas-->learning/work --> focused mode --> 
+--> books/cineam --> diffused mode
+
+
+==> NON LINEAR DATA STRUCTURES
+	tree
+	graph
+
+				
+-->Hash table is both linear and non linear based on its implementaion
+	Linked List
+	bst
+	
+
+==>tree
+	properties
+		
+		
+	applications	
+		file system/strucutre
+		maps
+		databases / social media
+		db indexing==>SQL==>B-tree;
+		
+		network based
+			location
+			social media
+			nearby
+			proximity
+		
+			
+	segement tree
+		range query ops
+		
+	dictionary
+
+==>BINARY TREE
+	
+		==>2 child
+		==>No child
+		
+		==>types of binary tree
+			full binary
+				all nodes have two child node except leaf nodes
+			strict binary
+				2child
+				no child
+				
+				-->segement tree
+				-->huffman tree (tbd)
+				
+			
+			complete binary tree
+				LEFT MOST CHILD ARE FILLED/PRESENT
+				can be converted to array
+				
+				
+	
+	
+		0(logn) <------------> O(n)
+
+
+1)n leaf node in full binary tree
+	
+   
+   
+   
+   ==>Strict binary tree
+		
+		L = I(2) +1
+		
+
+==> Go thorugh binary tree blogs
+
+-----------------------------------------------------------------------------------------		
+		
+week 16 --> session  1 --> (20-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY SEARCH TREE
+
+
+		
+==>BINARY SEARCH TREE
+	
+	BST is a binary tree with bst properties
+	Heap is complete  binary tree with heap prop
+	
+	[qus on bst]
+	pair sum in BST
+	min absolute diff in bst
+	find intresection of two BST
+	find kth largest  k th smallest
+
+	
+	searching 
+	
+	in order traversal
+	
+==>HEAP ==> PRIORITY QUEUE	
+
+	
+	tree Sort
+		
+	
+	SELF BALANCED TREE ==> AVL TREE (TBD)
+	
+	
+	complete binary tree
+	
+	heap props
+		max-Heap
+			parent node is larger than child node
+			
+			usecase
+			
+		
+		min-Heap
+			child nodes are larger than parent node
+			
+			usecase
+	
+	PQ ops ==> key ==> priority value
+		find Max
+		delete Max
+		insert
+		increase key()
+		decrease priority key
+		
+		all similar ops in min and Max
+	
+	top down heapify
+	
+	-->next session topics
+	build Heap o(n) (tbd) 
+	bt traversal
+	bt problems
+	bst Problems
+	heap Problems
