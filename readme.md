@@ -1342,7 +1342,7 @@ week 16 --> session  1 --> (20-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY SE
 	BST is a binary tree with bst properties
 	Heap is complete  binary tree with heap prop
 	
-	[qus on bst]
+	[ques on bst]
 	pair sum in BST
 	min absolute diff in bst
 	find intresection of two BST
@@ -1393,3 +1393,75 @@ week 16 --> session  1 --> (20-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY SE
 	bt problems
 	bst Problems
 	heap Problems
+	
+	
+*******************************************************************************	*
+
+week 16 --> session  2 --> (24-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY TREE , HEAP 
+
+1)build Heap (max)
+	
+	
+	bottom up
+		
+		single nodes are smallest Heap
+		
+		do heapify operations of parent nodes
+		
+
+2)Heap sort (nlogn)
+	
+	O(nlogn)   O(nlogn)		 O(nlogn)   
+	O(1)			        
+	heapsort << mergesort << quicksort
+	
+3)Height of BT	
+
+	post order traversal
+		recursion
+	
+	level order traversal
+		using queue 
+			add all the level nodes and remove the queue and increase the level counter
+	
+	https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+	
+	level order traversal in reverse order
+		right to left + stack + Queue
+		stack
+	
+	
+	
+
+	spiral order traversal
+	
+		can be solved by using two STACKs
+		by chaning directions from
+			r-l
+			l-r
+	
+		can be solved by using dequeu??
+	
+	https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+		
+4)find min depth of binary TREE
+
+
+-----------------------------------------------------------------------------------------------------	
+	
+	
+week 17 --> session  1 --> (26-Jan-2024) PROBLEM SOLVING BT , BST , Heap
+
+
+==>traversal
+	pre
+	post
+	In
+	
+	
+==>construction
+	build Heap
+	
+	
+	
+	
