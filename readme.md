@@ -1430,7 +1430,7 @@ week 16 --> session  2 --> (24-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY TR
 		right to left + stack + Queue
 		stack
 	
-	
+	https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/
 	
 
 	spiral order traversal
@@ -1457,11 +1457,84 @@ week 17 --> session  1 --> (26-Jan-2024) PROBLEM SOLVING BT , BST , Heap
 	pre
 	post
 	In
+	level
 	
 	
 ==>construction
+	bst (sorted)
+	bst (unsorted)
 	build Heap
 	
 	
+==>transform to other data Structure
+
+==>path
+	path sum
+	max sum
+
+==>tree -->mirror tree
 	
+	
+HEAP ==> PQ 
+
+1)sorted array to balanced bst
+	
+	https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+	
+
+2)Heap --> finding kth smallest Element in array
+			
+			build min Heap
+			
+			create k size max Heap
+			
+			
+			quick-select (quick start)
+
+3)left view of bst
+	
+	try dfs
+	
+
+
+==>BT,BST,HEAP ==> graph ==> ADS
+
+********************************************************************************************	
+
+week 17 --> session  2 --> (31-Jan-2024) Problem Solving on TREES , HEAP , BST
+
+
+1)validate bst
+	https://leetcode.com/problems/validate-binary-search-tree
+
+2)find min absolute difference in bst
+	
+	https://leetcode.com/problems/minimum-absolute-difference-in-bst
+
+3)construction bt
+	
+	
+	requires atleast two orders
+	inorder+ pre/post/level
+	
+	[think]
+	level order
+	inorder
+
+
+4)construct bst
+	
+	
+5)merge k sorted List
+
+	using min heap
+
+---------------------------------------------------------------------------------------------
+week 18 --> session  1 --> (02-Feb-2024) Graph, Problem Solving on TREES , HEAP ,
+
+
+-->approaches revision
+
+
+
 	
