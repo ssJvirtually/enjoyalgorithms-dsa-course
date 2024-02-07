@@ -1333,7 +1333,7 @@ focus and collaboration
 
 -----------------------------------------------------------------------------------------		
 		
-week 16 --> session  1 --> (20-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY SEARCH TREE
+week 16 --> session  1 --> (20-Jan-2024) NON LINEAR DATA STRUCTURES -- BINARY SEARCH TREE , HEAP
 
 
 		
@@ -1530,11 +1530,97 @@ week 17 --> session  2 --> (31-Jan-2024) Problem Solving on TREES , HEAP , BST
 	using min heap
 
 ---------------------------------------------------------------------------------------------
-week 18 --> session  1 --> (02-Feb-2024) Graph, Problem Solving on TREES , HEAP ,
+week 18 --> session  1 --> (02-Feb-2024) Graphsx	
 
 
 -->approaches revision
 
 
 
+1)design 10 data STRUCTURES
+	Dynamic Array
+	hashTable
+	LinkedList
+	Stack and Queue and Deque
+	dictoanary
+	PRIORITY Queue
+	trie
+	LRU
+	LFU
+	design browser history
+	
+
+
+==>GRAPHS
+	
+	vertices ==> v
+	
+	edges ==> e
+		
+		
+	
+	Representation
+		List
+		Array
+		
+		adjacent List
+		adjacent Matrix
+		
+		
+	
+	Types
+		directed
+		undirected
+		
+		weighted
+		unweighted
+		
+		cyclic
+		acyclic
+		
+		connected
+		disconnected
+		
+		sparse
+		dense
+		
+		
+		bipartite
+			two different sets connecting each other
+		
+		
+		
+		
+		
+	Traversal (bfs,dfs)
+		
+	Variants in graph
+		DAG --> topological Sorting
+		dijkstra
+		spanning tree 
+			min tree that connects all the nodes in the graphs
+			connect all nodes
+		modeling question
+	
+	Topological order (tbd)
+	
+
+	n nodes ==>max no of edges? ==> n(n-1)/2 edges => o(n2)  
+	undirected = > min no of edges (connected)
+	
+	
+	(V , E) ==> input
+	v->o(1) edges
+	v->o(v) edges ==> sparse graph ==> adjacent List
+	v->o(v2) edges in undirected graph ==> dense ==> adjacent matrix
+	
+	 
+	
+	E=>2E numbored of node in adjacent list ==> in undirected graph
+	
+	
+	
+	
+	
+	
 	
