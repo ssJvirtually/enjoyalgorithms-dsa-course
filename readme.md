@@ -1530,7 +1530,7 @@ week 17 --> session  2 --> (31-Jan-2024) Problem Solving on TREES , HEAP , BST
 	using min heap
 
 ---------------------------------------------------------------------------------------------
-week 18 --> session  1 --> (02-Feb-2024) Graphsx	
+week 18 --> session  1 --> (02-Feb-2024) Graphs	
 
 
 -->approaches revision
@@ -1619,8 +1619,132 @@ week 18 --> session  1 --> (02-Feb-2024) Graphsx
 	E=>2E numbored of node in adjacent list ==> in undirected graph
 	
 	
+********************************************************************************
+
+week 18 --> session  2 --> (07-Feb-2024) Graphs	 BFS
+	
+
+Representation of graph
+	List
+	Array
+	
+	==>adjacent List
+	==>adjacent Matrix
+	
+
+ 	Adjacent List
+		S.C = o(V+2E) undirected graph
+		S.C = o(V+E) directed graph
+
+		T.C = O(length of list) //to find a node
+	
+	Adjacent Matrix	
+	
+	(V,E) ==> V*V matrix
 	
 	
+	T.C = (U,V) O(1) //to find a node
+	
+	Adjacent list 								adjacent Matrix
+	space O(V+E)								O(V*V)
+	T.C = O(length of list)  					O(1)
+	sparse graph = S.C = O(V+E) = O(v)			O(V*V)
+	dense graph = S.C = O(V+E) = O(v*v)			O(V*V)
+	
+Traversal
+	
+	BFS
+		using vistied flag to avoid exploring same nodes multiple times, we can search for all the adjacent nodes and explore them and mark the node visited if already vistied
+	
+	https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+	
+1)check if node is reachable or Not
+	
+
+2)find the shortest path using minimum no of edges
+	https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+	
+3)find the distance of nodes
+	https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+
+4)Cycle == undirected graph ==> bfs
+	making use of ancestor elements
+	
+	https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+
+5)Cycle == directed graph ==> DFS
+		https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+
+----------------------------------------------------------------------
+
+week 19 --> session  1 --> (12-Feb-2024) Graphs	 DFS
+
+Traversal
+
+	DFS
+	
+	(start time , finish time)	
+		
+	if its not overlapping purely 	then its cross edge 
+	https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+	
+1)topological sorting
+	
+	DAG DFS
+		start time , end time
+	
+	Khan algorithn BFS
+		indegree 
+		outdegree
+		
+	recursion DFS
+	
+2)course schedule 
+	
+	https://leetcode.com/problems/course-schedule
+	
+	use Topological sorting
+	https://www.geeksforgeeks.org/problems/topological-sort/1
+	
+3) no of islands
+	https://leetcode.com/problems/number-of-islands/
+	
+	
+4)rotting oranges
+	https://leetcode.com/problems/rotting-oranges/
+	
+5)flood fill algorithms
+
+6)bipartite graph (tbd)
+
+7)No of operations to make network connected
+	https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/
+		
+	
+	
+******************************************************************************************************	
+ 	
+week 19 --> session  2 --> (14-Feb-2024) Graphs	 
+	
+
+	
+1)flood fill algorithm
+	
+	
+	
+2)seam carving algo (remember later)
+	
+	
+
+4)rotting oranges
+	https://leetcode.com/problems/rotting-oranges/
+
+	
+	
+	
+	 
+	
+
 	
 	
 	
