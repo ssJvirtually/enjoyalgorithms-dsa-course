@@ -1650,7 +1650,8 @@ Representation of graph
 	T.C = O(length of list)  					O(1)
 	sparse graph = S.C = O(V+E) = O(v)			O(V*V)
 	dense graph = S.C = O(V+E) = O(v*v)			O(V*V)
-	
+
+	https://www.enjoyalgorithms.com/blog/graph-representation-in-data-structures
 Traversal
 	
 	BFS
@@ -1739,12 +1740,99 @@ week 19 --> session  2 --> (14-Feb-2024) Graphs
 4)rotting oranges
 	https://leetcode.com/problems/rotting-oranges/
 
+
+5)cables to connect all components
 	
-	
+	n-1 edges are required minimum to connect all nodes
+
+6)bipartite graph	
 	
 	 
-	
+7)how many colors required to make graph bipartite	
 
+	
+8)two cilque problem
+	
+	
+	compliement of the graph
+		remove all original edges 
+		vertices which did not have the edge add an edge between them
+	
+	check bipartite or Not
+	
+9)dijkstra==>shortest path
+10)prince==>spannig tree	
+11)Difference constraint ==> vector ==> Linear Program 
+	
+---------------------------------------------------------------------------------------
+
+week 20 --> session  1 --> (16-Feb-2024) Graphs	 Patterns
+
+
+graph concepts
+	
+	Representation
+		adj List   O(v+e)
+		adj matrix O(v2)
+	
+	
+	Traversal
+		DFS
+			finish time
+			Stack
+			kahns algo (in degree , out degree)
+			
+			problems
+				cycle dettection
+				connected components or disconnected componnents
+				no of islands
+				min ops to connect comps
+				bipartite graph
+					two clique prblm
+				topological sort
+				
+				
+		
+		BFS
+	
+		
+1)shortest path
+	
+	triangular inequality
+	
+	
+	dijkstra ALGORITHM
+		
+	negative weight cycle cannot be calculated by djikstra
+	
+	
+	routing algorithm
+	
+		shortest path is not defined
+	
+	
+2)minimum spannig tree ==>prince Alogrithm
+	
+[explore]	
+1)a star search algorithm
+2)all pair shortest path(floyd-warshal algo)
+3)bellman ford(dp)
+4)flow PROBLEM(
+5)fold-fulkeson algo)
+
+
+
+3)TRAVELLING SALESMAN Problem
+
+
+
+
+
+
+
+
+	
+	
 	
 	
 	

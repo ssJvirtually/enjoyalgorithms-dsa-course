@@ -1,0 +1,10 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(ßî¶Û8¡¸Ö©Ü1
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßî¶Û8ŠºÖ©Ü1
+G	java:S106"+Replace this use of System.out by a logger.(¦Ö™8ŒºÖ©Ü1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ü¯÷Å8ºÖ©Ü1
+H
+java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù8¹¡×©Ü1

@@ -11,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/week-12" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week-13" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week-13/class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week-18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week-18/class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week-18/excercise" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
